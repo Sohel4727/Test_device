@@ -71,14 +71,14 @@ const Test = () => {
         </View>
       </View>
       <View style={styles.inputs_container}>
-        <View style={{zIndex: 1, paddingVertical: 6}}>
+        <View style={{zIndex: 2, paddingVertical: 6}}>
           <CustomDropdown
             items={items2}
             value={currentValue2}
             setValue={val => setCurrentValue2(val)}
           />
         </View>
-        <View style={{zIndex: 0, paddingVertical: 6}}>
+        <View style={{zIndex: 1, paddingVertical: 6}}>
           <CustomDropdown
             items={items3}
             value={currentValue3}
